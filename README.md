@@ -1,5 +1,5 @@
 # Alfred-QRCode
-This workflow allows you to create QR codes using Alfred without any dependencies
+This workflow allows you to create QR codes using an Alfred workflow
 <img width="621" alt="image" src="https://user-images.githubusercontent.com/5093679/120118401-5e6aa280-c160-11eb-98eb-c3e5f83f9af6.png">
 
 # Installation
