@@ -10,6 +10,8 @@ This workflow doesn't require any dependencies for installation, all that is req
 # Usage
 The current version of this workflow contains two keywords for Alfred, **qrc** & **qrp**. When using either **qrc** or **qrp** without a parameter this workflow will attempt to use text contained on the clipboard. This same flow is followed if you set a hotkey for the selection and nothing is selected.
 
+The universal actions use the selected text as the parameter.
+
 - **qrc [your text]** -- Creates your QR code and copies it to the clipboard
 - **qrp [your text]** -- Creates your QR code, by copying it to the clipboard and also opens it with Preview for saving
 
