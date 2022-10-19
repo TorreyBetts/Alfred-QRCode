@@ -21,11 +21,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>26D6F3D1-0F26-4DF6-9DC8-5907D095CC7D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED4BA57A-6E92-465F-804D-C0610F36F3D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>69E74F08-81D7-4945-A81C-D2152D5B903A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6D021D24-E739-4C01-9FCF-D4080D197015</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -188,39 +214,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>on run argv
-	tell application "Preview"
-    		activate
-	end tell
-
-	tell application "System Events"
-    		tell process "Preview"
-    			keystroke "n" using {command down}
-    		end tell
-	end tell
-end run</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2C5AB846-2028-4D02-9553-4DAB82486288</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -257,6 +250,39 @@ end run</string>
 				<key>escaping</key>
 				<integer>68</integer>
 				<key>script</key>
+				<string>on run argv
+	tell application "Preview"
+    		activate
+	end tell
+
+	tell application "System Events"
+    		tell process "Preview"
+    			keystroke "n" using {command down}
+    		end tell
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2C5AB846-2028-4D02-9553-4DAB82486288</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
 				<string>use framework "Foundation"use framework "CoreImage"use framework "AppKit"use framework "CoreGraphics"use scripting additions
 
 on run argv
@@ -282,6 +308,27 @@ on createQRCodeImageObjectForString(thisString)	set thisString to current appli
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
+				<true/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Create QR Code (Preview)</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.universalaction</string>
+			<key>uid</key>
+			<string>6D021D24-E739-4C01-9FCF-D4080D197015</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -301,8 +348,6 @@ on createQRCodeImageObjectForString(thisString)	set thisString to current appli
 				</array>
 				<key>elselabel</key>
 				<string>Notification</string>
-				<key>hideelse</key>
-				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -335,6 +380,27 @@ on createQRCodeImageObjectForString(thisString)	set thisString to current appli
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>qrp</string>
+				<key>subtext</key>
+				<string>Create and open QR code in Preview with '{query}'</string>
+				<key>text</key>
+				<string>Create QR Code</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>97570741-BC1B-4431-95D9-00CED513F925</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -354,8 +420,6 @@ on createQRCodeImageObjectForString(thisString)	set thisString to current appli
 				</array>
 				<key>elselabel</key>
 				<string>Use Clipboard</string>
-				<key>hideelse</key>
-				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -455,13 +519,32 @@ end run</string>
 				</array>
 				<key>elselabel</key>
 				<string>Failure</string>
-				<key>hideelse</key>
-				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>qrc</string>
+				<key>subtext</key>
+				<string>Create and copy QR code with '{query}'</string>
+				<key>text</key>
+				<string>Create QR Code</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C33AEA5B-EF43-41A0-A642-D58BC42BB124</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -488,42 +571,21 @@ end run</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>qrp</string>
-				<key>subtext</key>
-				<string>Create and open QR code in Preview with '{query}'</string>
-				<key>text</key>
-				<string>Create QR Code</string>
-				<key>withspace</key>
+				<key>acceptsfiles</key>
+				<false/>
+				<key>acceptsmulti</key>
+				<integer>0</integer>
+				<key>acceptstext</key>
 				<true/>
+				<key>acceptsurls</key>
+				<true/>
+				<key>name</key>
+				<string>Create QR Code (clipboard)</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.universalaction</string>
 			<key>uid</key>
-			<string>97570741-BC1B-4431-95D9-00CED513F925</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>qrc</string>
-				<key>subtext</key>
-				<string>Create and copy QR code with '{query}'</string>
-				<key>text</key>
-				<string>Create QR Code</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>C33AEA5B-EF43-41A0-A642-D58BC42BB124</string>
+			<string>26D6F3D1-0F26-4DF6-9DC8-5907D095CC7D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -534,6 +596,8 @@ end run</string>
 I've configured this to use two different keywords, qrc &amp; qrp. The qrc keyword creates a QR code that copied to the clipboard. The other keyword, qrp does the same thing, except at the end it'll open the QR code in Preview to allow saving as an image/pdf.
 
 When using either qrc or qrp without a parameter this workflow will attempt to use text contained on the clipboard. This same flow is followed if you set a hotkey for the selection and nothing is selected.
+
+The universal actions act use the selected text as the parameter.
 
 Example Usage
 
@@ -547,101 +611,117 @@ qrp https://github.com/TorreyBetts/Alfred-QRCode</string>
 			<key>note</key>
 			<string>Set your hotkey to enable QR creation from text selection or clipboard text</string>
 			<key>xpos</key>
-			<real>30</real>
+			<integer>30</integer>
 			<key>ypos</key>
-			<real>20</real>
+			<integer>20</integer>
 		</dict>
 		<key>13509B60-16B9-4CAB-B12C-8DF10B5ED8C1</key>
 		<dict>
 			<key>xpos</key>
-			<real>755</real>
+			<integer>755</integer>
 			<key>ypos</key>
-			<real>315</real>
+			<integer>440</integer>
+		</dict>
+		<key>26D6F3D1-0F26-4DF6-9DC8-5907D095CC7D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>565</integer>
 		</dict>
 		<key>2C5AB846-2028-4D02-9553-4DAB82486288</key>
 		<dict>
 			<key>xpos</key>
-			<real>760</real>
+			<integer>760</integer>
 			<key>ypos</key>
-			<real>20</real>
+			<integer>145</integer>
 		</dict>
 		<key>69E74F08-81D7-4945-A81C-D2152D5B903A</key>
 		<dict>
 			<key>xpos</key>
-			<real>420</real>
+			<integer>420</integer>
 			<key>ypos</key>
-			<real>300</real>
+			<integer>425</integer>
+		</dict>
+		<key>6D021D24-E739-4C01-9FCF-D4080D197015</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>200</integer>
 		</dict>
 		<key>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</key>
 		<dict>
 			<key>xpos</key>
-			<real>285</real>
+			<integer>265</integer>
 			<key>ypos</key>
-			<real>215</real>
+			<integer>340</integer>
 		</dict>
 		<key>97570741-BC1B-4431-95D9-00CED513F925</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<integer>30</integer>
 			<key>ypos</key>
-			<real>350</real>
+			<integer>320</integer>
 		</dict>
 		<key>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</key>
 		<dict>
 			<key>xpos</key>
-			<real>465</real>
+			<integer>465</integer>
 			<key>ypos</key>
-			<real>50</real>
+			<integer>175</integer>
 		</dict>
 		<key>C33AEA5B-EF43-41A0-A642-D58BC42BB124</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<integer>30</integer>
 			<key>ypos</key>
-			<real>475</real>
+			<integer>445</integer>
 		</dict>
 		<key>D800CE2C-2360-449D-9F4E-526651F15365</key>
 		<dict>
 			<key>xpos</key>
-			<real>625</real>
+			<integer>625</integer>
 			<key>ypos</key>
-			<real>100</real>
+			<integer>225</integer>
 		</dict>
 		<key>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</key>
 		<dict>
 			<key>xpos</key>
-			<real>610</real>
+			<integer>610</integer>
 			<key>ypos</key>
-			<real>320</real>
+			<integer>445</integer>
 		</dict>
 		<key>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</key>
 		<dict>
 			<key>xpos</key>
-			<real>210</real>
+			<integer>185</integer>
 			<key>ypos</key>
-			<real>225</real>
+			<integer>350</integer>
 		</dict>
 		<key>ED4BA57A-6E92-465F-804D-C0610F36F3D8</key>
 		<dict>
 			<key>xpos</key>
-			<real>215</real>
+			<integer>180</integer>
 			<key>ypos</key>
-			<real>350</real>
+			<integer>475</integer>
 		</dict>
 		<key>FB75E7A7-CEE2-4D7E-8E0E-C2644A591D77</key>
 		<dict>
 			<key>xpos</key>
-			<real>765</real>
+			<integer>765</integer>
 			<key>ypos</key>
-			<real>145</real>
+			<integer>270</integer>
 		</dict>
 	</dict>
-	<key>userconfigurationconfig</key>
-	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/TorreyBetts/Alfred-QRCode</string>
 </dict>
