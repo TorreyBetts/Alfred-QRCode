@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>torreybetts.qrcode</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>085ABB0D-A6F1-4195-AF37-23C05BC3A68F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>69E74F08-81D7-4945-A81C-D2152D5B903A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C43E5DC4-79EB-42A1-A07E-6170E1173C63</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>69E74F08-81D7-4945-A81C-D2152D5B903A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>97570741-BC1B-4431-95D9-00CED513F925</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D800CE2C-2360-449D-9F4E-526651F15365</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C33AEA5B-EF43-41A0-A642-D58BC42BB124</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED4BA57A-6E92-465F-804D-C0610F36F3D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D800CE2C-2360-449D-9F4E-526651F15365</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2C5AB846-2028-4D02-9553-4DAB82486288</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>A7859C22-C529-4B8A-9CC1-2223C36027C1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB75E7A7-CEE2-4D7E-8E0E-C2644A591D77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>011E373E-95CC-4934-941E-ACB64E5D1D60</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>13509B60-16B9-4CAB-B12C-8DF10B5ED8C1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ED4BA57A-6E92-465F-804D-C0610F36F3D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Torrey Betts</string>
+	<key>description</key>
+	<string>Generates a QR code</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>QR Code</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	tell application "Preview"
+    		activate
+	end tell
+
+	tell application "System Events"
+    		tell process "Preview"
+    			keystroke "n" using {command down}
+    		end tell
+	end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2C5AB846-2028-4D02-9553-4DAB82486288</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>085ABB0D-A6F1-4195-AF37-23C05BC3A68F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>use framework "Foundation"use framework "CoreImage"use framework "AppKit"use framework "CoreGraphics"use scripting additions
+
+on run argv
+	try
+    		set theQuery to item 1 of argv		set theQRCode to my createQRCodeImageObjectForString(theQuery)		set theClipBooard to current application's NSPasteboard's generalPasteboard()		theClipBooard's clearContents()		theClipBooard's writeObjects:{theQRCode}	end try
+end run
+
+on createQRCodeImageObjectForString(thisString)	set thisString to current application's NSString's stringWithString:thisString		set thisData to thisString's dataUsingEncoding:(current application's NSUTF8StringEncoding)		set anImageFilter to current application's CIFilter's filterWithName:"CIQRCodeGenerator"	anImageFilter's setDefaults()	anImageFilter's setValue:thisData forKey:"inputMessage"	anImageFilter's setValue:"L" forKey:"inputCorrectionLevel"		set baseImage to anImageFilter's outputImage()		set aTransform to current application's CGAffineTransform's CGAffineTransformMakeScale(100.0, 100.0)		set outputImage to baseImage's imageByApplyingTransform:aTransform		set imageRepresentation to current application's NSCIImageRep's imageRepWithCIImage:outputImage		set resultingImageObject to current application's NSImage's alloc()'s initWithSize:(imageRepresentation's |size|())		resultingImageObject's addRepresentation:imageRepresentation		return resultingImageObjectend createQRCodeImageObjectForString</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:USES_PREVIEW}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>yes</string>
+						<key>outputlabel</key>
+						<string>Preview</string>
+						<key>uid</key>
+						<string>A7859C22-C529-4B8A-9CC1-2223C36027C1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Notification</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D800CE2C-2360-449D-9F4E-526651F15365</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>The QR code was copied to the clipboard</string>
+				<key>title</key>
+				<string>QR Copied</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>FB75E7A7-CEE2-4D7E-8E0E-C2644A591D77</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Use Input</string>
+						<key>uid</key>
+						<string>C43E5DC4-79EB-42A1-A07E-6170E1173C63</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Use Clipboard</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>USES_PREVIEW</key>
+					<string>yes</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+	try
+  		set theText to (the clipboard as text)
+  		return theText
+	end try
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>69E74F08-81D7-4945-A81C-D2152D5B903A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>The QR creation failed due to clipboard not containing text</string>
+				<key>title</key>
+				<string>QR Failed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>13509B60-16B9-4CAB-B12C-8DF10B5ED8C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Success</string>
+						<key>uid</key>
+						<string>011E373E-95CC-4934-941E-ACB64E5D1D60</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Failure</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict>
+					<key>USES_PREVIEW</key>
+					<string>no</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>ED4BA57A-6E92-465F-804D-C0610F36F3D8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>qrp</string>
+				<key>subtext</key>
+				<string>Create and open QR code in Preview with '{query}'</string>
+				<key>text</key>
+				<string>Create QR Code</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>97570741-BC1B-4431-95D9-00CED513F925</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>qrc</string>
+				<key>subtext</key>
+				<string>Create and copy QR code with '{query}'</string>
+				<key>text</key>
+				<string>Create QR Code</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C33AEA5B-EF43-41A0-A642-D58BC42BB124</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>All of the QR code generator workflows I've come across use a dependency, such as an external installation, embedded app, or web service. Given that MacOS can create QR codes natively, that's what I did with this workflow.
+
+I've configured this to use two different keywords, qrc &amp; qrp. The qrc keyword creates a QR code that copied to the clipboard. The other keyword, qrp does the same thing, except at the end it'll open the QR code in Preview to allow saving as an image/pdf.
+
+When using either qrc or qrp without a parameter this workflow will attempt to use text contained on the clipboard. This same flow is followed if you set a hotkey for the selection and nothing is selected.
+
+Example Usage
+
+qrp https://github.com/TorreyBetts/Alfred-QRCode</string>
+	<key>uidata</key>
+	<dict>
+		<key>085ABB0D-A6F1-4195-AF37-23C05BC3A68F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Set your hotkey to enable QR creation from text selection or clipboard text</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>13509B60-16B9-4CAB-B12C-8DF10B5ED8C1</key>
+		<dict>
+			<key>xpos</key>
+			<real>755</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
+		<key>2C5AB846-2028-4D02-9553-4DAB82486288</key>
+		<dict>
+			<key>xpos</key>
+			<real>760</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>69E74F08-81D7-4945-A81C-D2152D5B903A</key>
+		<dict>
+			<key>xpos</key>
+			<real>420</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>7E5026FA-0CEB-44B4-A9A4-09B7AE9A9E03</key>
+		<dict>
+			<key>xpos</key>
+			<real>285</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>97570741-BC1B-4431-95D9-00CED513F925</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>9D4FD58E-9295-46E7-AE60-61E5353CF1DF</key>
+		<dict>
+			<key>xpos</key>
+			<real>465</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>C33AEA5B-EF43-41A0-A642-D58BC42BB124</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>475</real>
+		</dict>
+		<key>D800CE2C-2360-449D-9F4E-526651F15365</key>
+		<dict>
+			<key>xpos</key>
+			<real>625</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>DD056B37-7CB9-4DF6-8E62-AA7BFF44323A</key>
+		<dict>
+			<key>xpos</key>
+			<real>610</real>
+			<key>ypos</key>
+			<real>320</real>
+		</dict>
+		<key>E56EEFCE-2FF8-4FD0-9B5B-F4018F944025</key>
+		<dict>
+			<key>xpos</key>
+			<real>210</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
+		<key>ED4BA57A-6E92-465F-804D-C0610F36F3D8</key>
+		<dict>
+			<key>xpos</key>
+			<real>215</real>
+			<key>ypos</key>
+			<real>350</real>
+		</dict>
+		<key>FB75E7A7-CEE2-4D7E-8E0E-C2644A591D77</key>
+		<dict>
+			<key>xpos</key>
+			<real>765</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/TorreyBetts/Alfred-QRCode</string>
+</dict>
+</plist>
